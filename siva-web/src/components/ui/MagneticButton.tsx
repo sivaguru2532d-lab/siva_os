@@ -30,7 +30,7 @@ export const MagneticButton = forwardRef<HTMLButtonElement, MagneticButtonProps>
     },
     forwardedRef
   ) => {
-    const buttonRef = useRef<HTMLButtonElement>(null);
+    const buttonRef = useRef<HTMLButtonElement | null>(null);
     const [isFinePointer, setIsFinePointer] = useState(false);
 
     useEffect(() => {
@@ -61,7 +61,7 @@ export const MagneticButton = forwardRef<HTMLButtonElement, MagneticButtonProps>
       if (typeof forwardedRef === 'function') {
         forwardedRef(element);
       } else if (forwardedRef) {
-        forwardedRef.current = element;
+        (forwardedRef as React.MutableRefObject<HTMLButtonElement | null>).current = element;
       }
     };
 

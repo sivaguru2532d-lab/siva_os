@@ -36,7 +36,7 @@ export const projects: Project[] = [
     status: 'in-progress',
   },
   {
-    id 'data-visualization-dashboard',
+    id: 'data-visualization-dashboard',
     name: 'Data Visualization Dashboard',
     description: 'An interactive dashboard for visualizing analytics data with custom charts, filters, and export functionality.',
     technologies: ['React', 'D3.js', 'TypeScript', 'Tailwind CSS'],
