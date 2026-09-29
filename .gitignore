@@ -1,0 +1,10 @@
+node_modules
+dist
+sivaguru_web_upload
+.DS_Store
+*.local
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/

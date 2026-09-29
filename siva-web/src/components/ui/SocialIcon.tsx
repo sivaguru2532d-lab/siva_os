@@ -1,6 +1,6 @@
 import { forwardRef, type SVGAttributes } from 'react';
 
-interface SocialIconProps extends SVGAttributes<SVGSVGElement> {
+export interface SocialIconProps extends SVGAttributes<SVGSVGElement> {
   name: 'github' | 'linkedin' | 'instagram' | 'mail' | 'phone' | 'external';
   size?: number;
   className?: string;
