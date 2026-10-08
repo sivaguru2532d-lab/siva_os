@@ -39,7 +39,7 @@ export function Hero() {
               >
                 <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-glass border border-glass-border text-text-secondary text-sm font-medium">
                   <span className="w-2 h-2 rounded-full bg-accent/50 animate-pulse" />
-                  Information Technology Student
+                  Based in {personalInfo.location}
                 </span>
               </motion.div>
             </ScrollReveal>

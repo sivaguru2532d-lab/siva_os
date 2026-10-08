@@ -10,13 +10,9 @@ export function About() {
         {/* Section Header */}
         <ScrollReveal direction="up" delay={0}>
           <div className="max-w-2xl mb-16">
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-glass border border-glass-border text-text-secondary text-sm font-medium mb-4">
-              <span className="w-2 h-2 rounded-full bg-accent/50" />
-              About Me
-            </span>
             <h2 className="text-heading-1 font-bold text-text-primary tracking-tight mb-4">About Me</h2>
             <p className="text-body-lg text-text-secondary">
-              Get to know me better — my journey, education, and what drives me.
+              I enjoy learning by building, turning new ideas into practical projects, and improving with each iteration.
             </p>
           </div>
         </ScrollReveal>
