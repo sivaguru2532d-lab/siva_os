@@ -1,8 +1,8 @@
 export const personalInfo = {
   name: 'SIVAGURU M',
-  title: 'Information Technology Student | Developer',
-  bio: "I'm an Information Technology student passionate about software development, web technologies, and exploring emerging technology. I enjoy building projects, solving problems through code, and continuously learning new technologies.",
-  about: "I'm an Information Technology student with a strong interest in software development, web technologies, and emerging technology. I enjoy building projects, solving problems through code, and learning how technology can be used to create practical solutions.\n\nI have hands-on experience with Python, C++, JavaScript, HTML, Git, and GitHub, and I'm continuously expanding my skills through personal projects and technical learning.\n\nI'm currently focused on becoming a well-rounded developer, gaining real-world experience, and building projects that demonstrate both my technical skills and creativity.",
+  title: 'B.Tech Information Technology Student | Developer',
+  bio: "I'm studying Information Technology at SRM Valliammai Engineering College and learning to build useful software through hands-on projects. I work with Python, C++, JavaScript, HTML, and Git, and I'm especially interested in web development and emerging technologies.",
+  about: "I'm pursuing a B.Tech in Information Technology at SRM Valliammai Engineering College. I'm building a strong foundation in programming and software development through coursework and personal projects.\n\nI've worked with Python, C++, JavaScript, HTML, Git, and GitHub, and I'm especially interested in web development and emerging technologies. I enjoy taking an idea from an early experiment to a working project, then using what I learn to improve the next one.\n\nI'm currently focused on strengthening my fundamentals and growing as a developer. I'm always glad to connect with people who enjoy learning and building with technology.",
   education: {
     degree: 'B.Tech – Information Technology',
     institution: 'SRM Valliammai Engineering College',

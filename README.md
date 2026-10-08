@@ -1,58 +1,69 @@
-# SIVA.OS
+# SIVA.OS — SIVAGURU M's Portfolio
 
-> An experimental interactive portfolio by SIVAGURU M.
+SIVA.OS is my personal portfolio: a place to share what I'm learning, the projects I'm building, and my journey as an Information Technology student.
 
-SIVA.OS is a creative developer portfolio built as an interactive digital experience rather than a traditional portfolio website.
+I'm pursuing a B.Tech in Information Technology at **SRM Valliammai Engineering College**. I enjoy learning by building, exploring web development and emerging technologies, and improving with every project.
 
-It combines modern web development, 3D interfaces, motion design, AI exploration, and experimental UI to showcase my projects, skills, certificates, and journey as an Information Technology student and developer.
+## Portfolio
 
-## ✦ Explore
+The site brings together my introduction, education, skills, projects, certificates, resume information, and contact links in one responsive experience.
 
-- Interactive 3D experience
-- Creative project showcase
-- Web development experiments
-- AI & technology exploration
-- Skills and developer toolkit
-- Certificate archive
-- Resume
-- Interactive terminal & easter eggs
-- Custom cursor and micro-interactions
-- Responsive mobile experience
+**Built with:** React 18, TypeScript, Vite, Tailwind CSS, Framer Motion, and Lucide React.
 
-## ⚙️ Built With
+## Run locally
 
-- React
-- TypeScript
-- Vite
-- Three.js
-- React Three Fiber
-- GSAP
-- Lenis
-- Tailwind CSS
+```powershell
+cd siva-web
+npm ci
+npm run dev
+```
 
-## 🚀 Featured Project
+To create and preview a production build:
 
-### NEON ARENA
+```powershell
+npm run build
+npm run preview
+```
 
-An interactive browser game with a neon visual direction and immersive web experience.
+The build output is written to `siva-web/dist/`.
 
-Live Demo: https://neon-arena-1.vercel.app/
+## Project structure
 
-## 👨‍💻 About
+```text
+siva-web/
+├── public/                 # Static assets
+└── src/
+    ├── components/
+    │   ├── layout/         # Navigation, footer, and section layout
+    │   ├── sections/       # Portfolio page sections
+    │   └── ui/             # Reusable interface components
+    ├── data/               # Personal, skills, project, and contact content
+    ├── App.tsx
+    └── index.css
+```
 
-I'm SIVAGURU M, a B.Tech Information Technology student and developer interested in web development, AI-assisted development, UI/UX, Linux, creative technology, and building practical projects.
+## Update portfolio content
 
-My approach is simple:
+Portfolio content is kept in `siva-web/src/data/`:
 
-**BUILD → BREAK → LEARN → CREATE**
+| File | Content |
+| --- | --- |
+| `personal.ts` | Name, title, biography, education, and profile image |
+| `skills.ts` | Skills and self-reported learning levels |
+| `projects.ts` | Project descriptions, technologies, and links |
+| `certificates.ts` | Verified certificate details |
+| `social.ts` | Social profile and contact links |
+| `resume.ts` | Resume file details, when a real PDF is available |
 
-## 🔗 Connect
+Add only accurate, verifiable information and update the relevant data file. Static images belong in `siva-web/public/`.
 
-- GitHub: https://github.com/sivaguru2532d-lab
-- LinkedIn: https://www.linkedin.com/in/sivaguru-m-b84175370
-- Portfolio: https://sivaguru-portfolio-two.vercel.app/
+## Contact
 
----
+- **Email:** [sivaguru2532d@gmail.com](mailto:sivaguru2532d@gmail.com)
+- **GitHub:** [sivaguru2532d-lab](https://github.com/sivaguru2532d-lab)
+- **LinkedIn:** [Sivaguru M](https://www.linkedin.com/in/siva-guru-m-b84175370)
+- **Portfolio:** [sivaguru-portfolio-two.vercel.app](https://sivaguru-portfolio-two.vercel.app/)
 
-### SIVA.OS
-**BUILD • LEARN • CREATE**
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
